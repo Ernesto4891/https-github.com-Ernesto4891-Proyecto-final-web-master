@@ -1,0 +1,52 @@
+.headerPage {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerPage {
+  height: 55px;
+  background: #111111;
+  z-index: 1;
+  position: sticky; top: 0px;
+}
+
+.menuPng {
+  border:none;
+  background-color: #111111;
+  color:#d6253d;
+  width: 60px;
+  height: 55px;
+  font-size: 35px;
+}
+
+.nameHeader {
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Permanent Marker', cursive;
+  color:#d6253d; 
+  text-shadow:  #978e8c 1px 2px;
+}
+
+.headerPage .nameHeader {
+  font-size: 30px;
+  font-weight: 1000;
+  margin-top: 7px;
+  margin-left: 10px;
+}
+
+.buttonCanvas  {
+  text-decoration: none;
+  margin-right: 7px;
+  height: 50px;
+  background-color: #111111;
+  color: #d6253d;
+  border:none;
+  font-size: 30px;
+}
+
+.buttonCanvas:hover {
+  color:#fc1634;
+}
+
+.headerPage svg {
+  margin-bottom: 5px;
+}
